@@ -17,7 +17,7 @@ export const emailjsConfig = {
 // {{from_email}} - sender's email
 // {{subject}} - email subject
 // {{message}} - email message
-// {{to_email}} - your email (chordiasahil@gmail.com)
+// {{to_email}} - your email (Shubhamjainn1256@gmail.com)
 
 // Example of what your actual config might look like:
 // export const emailjsConfig = {

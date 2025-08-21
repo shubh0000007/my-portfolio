@@ -66,18 +66,6 @@ export const personalInfo = {
   // Projects
   projects: [
     {
-      title: "Cross-Domain Sentiment Analysis Using ML/DL Models",
-      description: "Published research paper in Springer (2024) on building sentiment analysis models that generalize across domains using 1.6 million real-world text samples from Twitter, Amazon, and IMDb. Designed and evaluated multiple deep learning architectures including LSTM, BiLSTM, and CNN, achieving 82.56% accuracy with BiLSTM for cross-domain sentiment classification.",
-      image: "/sentiment-analysis.png",
-      technologies: {
-        'Deep Learning': ['LSTM', 'BiLSTM', 'CNN', 'TensorFlow', 'PyTorch'],
-        'NLP': ['SpaCy', 'NLTK', 'Text Preprocessing', 'Tokenization'],
-        'Research': ['Peer-reviewed Publication', 'Cross-domain Analysis', 'Model Transferability']
-      },
-      githubUrl: "https://github.com/shubh95/sentiment-analysis", // Update with actual link
-      category: "AI/ML"
-    },
-    {
       title: "Car Sales Dashboard using Power BI",
       description: "Crafted a Power BI dashboard using DAX to analyze 24K car sales records, focusing on KPIs like Annual Income and Transmission Type. Conducted A/B testing by segmenting customers based on income and transmission type, identifying optimal marketing strategy that improved targeting accuracy by 20% and boosted lead conversion rates by 15%.",
       image: "/powerbi-dashboard.png",
@@ -86,7 +74,7 @@ export const personalInfo = {
         'Analytics': ['A/B Testing', 'Customer Segmentation', 'KPI Analysis'],
         'Business Impact': ['20% Targeting Accuracy', '15% Lead Conversion', 'Data-driven Decisions']
       },
-      githubUrl: "https://github.com/shubh95/car-sales-dashboard", // Update with actual link
+      githubUrl: "https://github.com/shubh0000007/-Car-Sales-Power-Bi-Dashboard",
       category: "Data Analytics"
     },
     {
@@ -102,18 +90,6 @@ export const personalInfo = {
       category: "Data Analytics"
     },
     {
-      title: "Azure End-to-End Data Engineering with NYC Taxi Data",
-      description: "Designed and orchestrated automated data ingestion pipelines using Azure Data Factory to extract, transform, and load 10 million+ NYC Taxi records into Delta Lake. Implemented 3-layer Medallion Architecture on Databricks using PySpark and SQL, reducing query latency by 40% and enabling real-time analytics with Tableau dashboards.",
-      image: "/azure-data-engineering.png",
-      technologies: {
-        'Cloud Platform': ['Azure Data Factory', 'Azure Databricks', 'Delta Lake'],
-        'Big Data': ['PySpark', 'SQL', 'Data Pipeline Orchestration'],
-        'Analytics': ['Tableau', 'Real-time Analytics', 'Performance Optimization']
-      },
-      githubUrl: "https://github.com/shubh95/nyc-taxi-data-engineering", // Update with actual link
-      category: "Data Engineering"
-    },
-    {
       title: "Tableau Dashboard: King County Real Estate Insights",
       description: "Built an interactive Tableau dashboard to analyze King County housing market trends. Added dynamic filters and geospatial mapping to enable user-driven insights. Boosted overall user engagement and data usability by 70% through improved visualization design.",
       image: "/tableau-real-estate.png",
@@ -126,16 +102,41 @@ export const personalInfo = {
       category: "Data Analytics"
     },
     {
-      title: "Loan Eligibility Prediction",
-      description: "Developed a loan eligibility model using EDA and machine learning, ensuring risk management compliance. Preprocessed data with missing value handling, encoding, feature scaling, and outlier detection to improve model performance. Trained models like Naive Bayes using Scikit-learn, achieving 83% accuracy and enhancing prediction reliability.",
-      image: "/loan-eligibility-prediction.jpg",
+      title: "HR Analytics Dashboard (Power BI)",
+      description: "Identified that 49% of attrition occurred in the 26–35 age group, guiding targeted retention strategies. Analyzed 1,470 employees across job roles, education, age, and salary to understand attrition trends. Uncovered high-risk roles like Sales Executive and Lab Technician using clear, visual insights.",
+      image: "/hr-analytics-dashboard.png",
       technologies: {
-        'Machine Learning': ['Scikit-learn', 'Naive Bayes', 'Decision Trees', 'Jupyter Notebooks'],
-        'Data Preprocessing': ['Missing Value Handling', 'Feature Encoding', 'Feature Scaling', 'Outlier Detection'],
-        'Business Impact': ['83% Model Accuracy', 'Risk Management Compliance', 'Enhanced Prediction Reliability']
+        'Business Intelligence': ['Power BI', 'DAX', 'Data Visualization'],
+        'HR Analytics': ['Attrition Analysis', 'Employee Demographics', 'Retention Strategies'],
+        'Business Impact': ['49% Attrition in 26-35 Age Group', '1,470 Employee Analysis', 'High-risk Role Identification']
       },
-      githubUrl: "https://github.com/shubh0000007/LoanEligibilityPrediction",
+      githubUrl: "https://github.com/shubh0000007/Advanced-HR-Analytics-Power-BI-Dashboard-",
+      category: "Data Analytics"
+    },
+    {
+      title: "Cross-Domain Sentiment Analysis Using ML/DL Models",
+      description: "Published research paper in Springer (2024) on building sentiment analysis models that generalize across domains using 1.6 million real-world text samples from Twitter, Amazon, and IMDb. Designed and evaluated multiple deep learning architectures including LSTM, BiLSTM, and CNN, achieving 82.56% accuracy with BiLSTM for cross-domain sentiment classification.",
+      image: "/sentiment-analysis.png",
+      technologies: {
+        'Deep Learning': ['LSTM', 'BiLSTM', 'CNN', 'TensorFlow', 'PyTorch'],
+        'NLP': ['SpaCy', 'NLTK', 'Text Preprocessing', 'Tokenization'],
+        'Research': ['Peer-reviewed Publication', 'Cross-domain Analysis', 'Model Transferability']
+      },
+      githubUrl: "https://github.com/shubh0000007/sentiment-analysis-using-machine-learning-and-deep-learning-models",
       category: "AI/ML"
+    },
+    {
+      title: "Azure End-to-End Data Engineering with NYC Taxi Data",
+      description: "Designed and orchestrated automated data ingestion pipelines using Azure Data Factory to extract, transform, and load 10 million+ NYC Taxi records into Delta Lake. Implemented 3-layer Medallion Architecture on Databricks using PySpark and SQL, reducing query latency by 40% and enabling real-time analytics with Tableau dashboards.",
+      image: "/azure-data-engineering.png",
+      technologies: {
+        'Cloud Platform': ['Azure Data Factory', 'Azure Databricks', 'Delta Lake', 'Azure Storage', 'Azure Key Vault'],
+        'Big Data': ['PySpark', 'SQL', 'Data Pipeline Orchestration', 'Data Lake Gen2', 'Stream Analytics'],
+        'Analytics': ['Tableau', 'Real-time Analytics', 'Performance Optimization', 'Data Quality', 'Monitoring'],
+        'Architecture': ['Medallion Architecture', 'ETL/ELT Pipelines', 'Data Governance', 'Security & Compliance']
+      },
+      // githubUrl: "https://github.com/shubh0000007/nyc-taxi-data-engineering", // No public repository
+      category: "Data Engineering"
     },
     {
       title: "COVID-19 Global Vaccine Tracker (Tableau)",
@@ -150,16 +151,16 @@ export const personalInfo = {
       category: "Data Analytics"
     },
     {
-      title: "HR Analytics Dashboard (Power BI)",
-      description: "Identified that 49% of attrition occurred in the 26–35 age group, guiding targeted retention strategies. Analyzed 1,470 employees across job roles, education, age, and salary to understand attrition trends. Uncovered high-risk roles like Sales Executive and Lab Technician using clear, visual insights.",
-      image: "/hr-analytics-dashboard.png",
+      title: "Loan Eligibility Prediction",
+      description: "Developed a loan eligibility model using EDA and machine learning, ensuring risk management compliance. Preprocessed data with missing value handling, encoding, feature scaling, and outlier detection to improve model performance. Trained models like Naive Bayes using Scikit-learn, achieving 83% accuracy and enhancing prediction reliability.",
+      image: "/loan-eligibility-prediction.jpg",
       technologies: {
-        'Business Intelligence': ['Power BI', 'DAX', 'Data Visualization'],
-        'HR Analytics': ['Attrition Analysis', 'Employee Demographics', 'Retention Strategies'],
-        'Business Impact': ['49% Attrition in 26-35 Age Group', '1,470 Employee Analysis', 'High-risk Role Identification']
+        'Machine Learning': ['Scikit-learn', 'Naive Bayes', 'Decision Trees', 'Jupyter Notebooks'],
+        'Data Preprocessing': ['Missing Value Handling', 'Feature Encoding', 'Feature Scaling', 'Outlier Detection'],
+        'Business Impact': ['83% Model Accuracy', 'Risk Management Compliance', 'Enhanced Prediction Reliability']
       },
-      githubUrl: "https://github.com/shubh0000007/Advanced-HR-Analytics-Power-BI-Dashboard-",
-      category: "Data Analytics"
+      githubUrl: "https://github.com/shubh0000007/LoanEligibilityPrediction",
+      category: "AI/ML"
     }
   ],
   
